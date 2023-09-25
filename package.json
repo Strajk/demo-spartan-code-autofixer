@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "vitest": "cd agent && CLI_TEST_COMMAND='npm run test-vitest' node index.js",
+    "jest": "cd agent && CLI_TEST_COMMAND='npm run test-jest' node index.js",
+    "assert": "cd agent && CLI_TEST_COMMAND='npm run test-assert' node index.js"
+  }
+}

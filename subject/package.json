@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "test-vitest": "vitest run --dir vitest",
+    "test-jest": "jest",
+    "test-assert": "node assert/assert.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "vitest": "0.34.4"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/jest/*.test.js"
+    ]
+  }
+}
